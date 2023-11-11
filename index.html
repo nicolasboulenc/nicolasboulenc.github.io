@@ -34,7 +34,19 @@
 		a:hover {
 			text-decoration: underline;
 		}
-	
+		
+		.avatar {
+			position: absolute;
+			margin-top: 1vh;
+			margin-left: 1vh;
+			top: 0px;
+			left: 0px;
+			border-radius: 50%;
+			/* border: 2px solid #1b2430; */
+			max-width: 10vh;
+			max-height: 10vh;
+		}
+
 		</style>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,6 +54,7 @@
 	</head>
 	<body>
 		<!-- <h1>Hello world!</h1> -->
+		<img src="avatar.jpg" alt="" class="avatar">
 		<div id="container"></div>
 		
 		<script>
